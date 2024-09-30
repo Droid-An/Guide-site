@@ -1,0 +1,101 @@
+body {
+    color: rgb(53, 53, 53);
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#hero {
+    background-image: url("Images/moscow.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+
+    text-shadow: 0px 0px 3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#to-do {
+    margin-top: 20px;
+}
+
+#main {
+    display: grid;
+    justify-content: center;
+    padding: 0 0 20px 0;
+    background-color: aquamarine;
+
+}
+
+.main-header {
+    margin: 0;
+    color:white;
+    background-color:#4b64b0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.second-header {
+    color:white;
+    background-color: #686e98;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0 50px;
+    padding: 0;
+    gap: 20px;
+}
+
+.list LI {
+    padding: 5px 0px;
+    background: rgb(144, 221, 252);
+    border-radius: 5px;
+}
+
+.round-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.card {
+    display: flex;
+    background: #ddebf8;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin: 20px auto;
+    font-weight: 400;
+
+    text-align: center;
+    color: #2b2839;
+    border-top: 10px solid #d23b088a;
+    border-left: 10px solid #d23b08;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.info {
+    width: 120px;
+
+}
